@@ -1,0 +1,43 @@
+body {
+    background-image: url(noting.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+.cardl {
+    background-color: black;
+}
+
+.card {
+    background: none;
+    border: 2px solid black;
+    border-radius: 7px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+@media only screen and (max-width:939px) {
+    #head {
+        margin: 12px 46px;
+    }
+}
+@media only screen and (max-width:375px) {
+    #head {
+        margin: 0px 38px;
+    }
+}
+@media only screen and (max-width:333px) {
+    #head {
+        margin: 5px 54px;
+    }
+}
